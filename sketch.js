@@ -1,3 +1,4 @@
+
 var player,player2;
 var platform,platform2;
 var player_image, platform_image;
@@ -21,6 +22,7 @@ function setup() {
   
   
 }
+
 function draw() {
   background('#F2F5B6');
   
@@ -41,3 +43,5 @@ function spawnPlatform(){
   var platforms = createSprite(250,0,50,50);
   platforms.velocityY = 4; 
 }
+
+
